@@ -1,60 +1,60 @@
 html,
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 h1 {
-    align-self: center;
-    margin-top: 12px;
-    margin-bottom: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+  align-self: center;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 36px;
 }
 
 #board {
-    height: 764px;
-    width: 794px;
-    display: grid;
-    grid-template-columns: repeat(6, 120px);
-    grid-template-rows: repeat(4, 180px);
-    grid-gap: 12px;
-    justify-content: center;
-    background-color: dimgray;
-    border: solid 8px dimgray;
+  height: 764px;
+  width: 794px;
+  display: grid;
+  grid-template-columns: repeat(6, 120px);
+  grid-template-rows: repeat(4, 180px);
+  grid-gap: 12px;
+  justify-content: center;
+  background-color: dimgray;
+  border: solid 8px dimgray;
 }
 
 img {
-    border: solid 2px darkblue;
-    border-radius: 5px;
+  border: solid 2px darkblue;
+  border-radius: 5px;
 }
 
 #score {
-    align-self: center;
-    width: 420px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+  align-self: center;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
 }
 
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .underlined {
-    text-decoration: underline;
-    font-weight: 500;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 #player1score {
-    color: darkblue;
+  color: darkblue;
 }
 
 #player2score {
-    color: brown;
+  color: brown;
 }
