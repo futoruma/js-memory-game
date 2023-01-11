@@ -19,6 +19,7 @@ let secondPlayerScore = 0;
 let isFirstPlayer = true;
 
 boardDiv = document.querySelector("#board");
+
 for (let i = 0; i < 24; i++) {
   let newCard = document.createElement("img");
   boardDiv.append(newCard);
@@ -32,7 +33,6 @@ for (let i = 0; i < 24; i++) {
       curSecondCard = newCard.id;
     }
     openedCount++;
-    console.log(openedCount);
     if (openedCount == 2) {
       let firstCard = document.getElementById(curFirstCard);
       let secondCard = document.getElementById(curSecondCard);
